@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    android:background="@mipmap/l2"
+    tools:context=".MyGame2048.OptionsActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="configuration"
+        android:textColor="#FF4664"
+        android:gravity="center"
+        android:layout_marginTop="30dp"
+        android:textSize="35dp"
+        />
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#FFFFFF"
+        android:layout_margin="10dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="GameLines"
+        android:textSize="20dp"
+        android:gravity="center"/>
+
+       <Button
+           android:layout_width="50dp"
+           android:layout_height="wrap_content"
+           android:id="@+id/bt_option_line"
+           android:layout_gravity="center"
+           android:background="@drawable/bt_optionsactivity_gameline"/>
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="TargetGoal"
+           android:textColor="#EECCFF"
+           android:textSize="20dp"
+           android:gravity="center"
+          />
+       <Button
+           android:layout_width="50dp"
+           android:layout_height="wrap_content"
+           android:layout_gravity="center"
+           android:id="@+id/bt_option_target"
+           android:background="@drawable/bt_optionsactivity_gameline"/>
+
+   <RelativeLayout
+       android:layout_weight="1"
+       android:layout_width="match_parent"
+       android:layout_height="0dp">
+       <Button
+           android:layout_width="65dp"
+           android:layout_height="wrap_content"
+           android:text="Back"
+           android:id="@+id/bt_option_back"
+           android:layout_alignParentBottom="true"
+           android:background="@drawable/bt_optionsactivity_gameline"
+           />
+       <Button
+           android:layout_width="65dp"
+           android:layout_height="wrap_content"
+           android:text="Done"
+           android:id="@+id/bt_option_down"
+           android:layout_alignParentBottom="true"
+           android:layout_alignParentRight="true"
+           android:background="@drawable/bt_optionsactivity_gameline"
+           />
+   </RelativeLayout>
+        <!--<TextView
+            android:textColor="#12FF66"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ContactMe"
+            android:textSize="30dp"
+            android:gravity="center"
+            android:layout_marginBottom="30dp"/>-->
+    <LinearLayout
+        android:id="@+id/adLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+    </LinearLayout>
+    
+</LinearLayout>

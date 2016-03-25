@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <!--按钮点击状态下的颜色-->
+    <item android:state_pressed="true">
+        <shape xmlns:android="http://schemas.android.com/apk/res/android"
+            android:shape="rectangle">
+            <corners android:radius="10dp"/>
+            <solid android:color="#727272"/>
+        </shape>
+    </item>
+    <!--按钮默认状态下的颜色-->
+    <item>
+        <shape xmlns:android="http://schemas.android.com/apk/res/android"
+            android:shape="rectangle">
+            <corners android:radius="10dp"/>
+            <solid android:color="#FF8D63"/>
+        </shape>
+    </item>
+</selector>
